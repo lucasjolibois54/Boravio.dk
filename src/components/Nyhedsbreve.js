@@ -16,10 +16,10 @@ function Nyhedsbreve() {
            
       <div className="w-full  pt-0 pb-10 pl-10 text-center w-100% lg:w-3/12">
                    
-                    <img src={PeopleOne} className="pt-16 w-6/12" alt="church"/>
+                    <img src={PeopleOne} className="pt-16 w-6/12 hidden lg:block" alt="church"/>
 
                 </div>
-                <div className="w-full  pt-0 pb-10 pr-10 text-center w-100% lg:w-6/12">
+                <div className="w-full  pt-0 pb-10 pl-10 pr-10 text-center w-100% lg:w-6/12">
                     
                     <h2   className="text-4xl sm:text-3xl md:text-5xl 2xl:text-8xl font-semibold mt-10 text-center font-sans text-white py-0">
                     Tilmeld dig til vores  <br />
@@ -71,7 +71,7 @@ function Nyhedsbreve() {
         </div>
                 </div>
                 <div className="w-full  pt-0 pb-10 pl-10 text-center w-100% lg:w-3/12">
-                <img src={PeopleTwo} className="float-right mr-10 pt-16 w-6/12" alt="church"/>
+                <img src={PeopleTwo} className="float-right hidden lg:block mr-10 pt-16 w-6/12" alt="church"/>
                 </div>
                
       </div>
