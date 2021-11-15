@@ -24,11 +24,11 @@ function HeroSection() {
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
-          <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 " variant="contained"><span className="paddingButton">Mere om os</span></Button>
+          <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 rounded-full font-bold" variant="contained"><span className="paddingButton font-bold">Mere om os</span></Button>
           </div>
         </div>
-        <div  className="w-full xl:w-5/10">
-          <img src={Kirke} className="p-16" alt="church"/>
+        <div  className="w-full xl:w-full">
+          <img src={Kirke} className="pt-16" alt="church"/>
         </div>
       </div>
     )
