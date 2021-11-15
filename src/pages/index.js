@@ -19,7 +19,7 @@ import '../styles/global.css';
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Boravio Forside</title>
       <Nav/>
       <HeroSection/>
       <Values/>
