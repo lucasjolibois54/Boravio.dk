@@ -26,7 +26,7 @@ function Value() {
           bg-dark-text
         "
       >
-        <div  className="w-full bg-dark-text pt-10 pb-20 pr-10 text-center w-100% lg:w-2/12">
+        <div  className="w-full bg-dark-text pt-10 pb-20 pr-0 text-center w-100% lg:w-2/12">
           <h2 className="pl-8 text-4xl font-black pb-10 pr-10  text-white md:text-5xl">01</h2>
           <h2 className=" text-xl text-center text-white">Spar penge</h2>
         </div>
