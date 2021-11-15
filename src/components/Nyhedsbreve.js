@@ -25,6 +25,9 @@ function Nyhedsbreve() {
                     Tilmeld dig til vores  <br />
             <span className="text-orange-text"> nyhedsbreve</span>
           </h2>
+          <p  className="text-lg text-dark-gray-text py-5 xl:pl-0 ">
+          Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilmelder tilfældig vil vinde 1000 kr.
+          </p>
                 </div>
                 <div className="w-full  pt-0 pb-20 pl-10 text-center w-100% lg:w-3/12">
                 <img src={PeopleTwo} className="float-right mr-10 pt-16 w-6/12" alt="church"/>
