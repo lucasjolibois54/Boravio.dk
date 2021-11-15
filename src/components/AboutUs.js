@@ -3,9 +3,6 @@ import styled from "styled-components";
 import AboutImg from "../images/AboutImg.png";
 //MUI-components
 import Button from '@mui/material/Button';
-import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
-import { IconButton } from '@mui/material';
-import { red } from '@mui/material/colors';
 
 function AboutUs() {
     return (
