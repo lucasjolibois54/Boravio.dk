@@ -26,7 +26,7 @@ const IndexPage = () => {
       <BestilProdukt/>
       <HowWorks/>
       <Nyhedsbreve/>
-      <footer/>
+      <Footer/>
     </main>
   )
 }
