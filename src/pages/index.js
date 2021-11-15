@@ -4,6 +4,7 @@ import * as React from "react"
 import TestComponent from  "../components/TestComponent"
 import HeroSection from  "../components/HeroSection"
 import Values from  "../components/Values"
+import AboutUs from  "../components/AboutUs"
 
 //tailwind global.css import
 import '../styles/global.css';
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <TestComponent />
       <HeroSection/>
       <Values/>
+      <AboutUs/>
     </main>
   )
 }
