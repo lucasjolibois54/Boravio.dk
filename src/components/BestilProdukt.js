@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function BestilProdukt() {
     return (
-        <div className="bg-red-text">
+        <div className="bg-red-text  ml-20 mr-20 rounded-xl">
                     <div className=" p-0 flex flex-col w-full xl:flex-row md:p-0 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-lg pt-10 text-orange-text mb-3 font-bold">
@@ -26,7 +26,7 @@ function BestilProdukt() {
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Tilmeld dig!</span></Button>
           </div>
         </div>
-        <div  className="w-full xl:w-full">
+        <div  className="w-full xl:w-6/12">
           <img src={ImgBestil} className="pt-16" alt="church"/>
         </div>
       </div>
