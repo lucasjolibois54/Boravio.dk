@@ -50,7 +50,7 @@ const buttonStyle = {
 }
 
 const buttonStyle2 = {
-    backgroundColor: "#8EA0B8",
+    backgroundColor: "#9B757A",
     color: 'white',
     height: '48px;',
     top: '0px;',
