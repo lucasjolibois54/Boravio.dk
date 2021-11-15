@@ -9,7 +9,7 @@ import PeopleTwo from "../images/PeopleTwo.png";
 
 function Nyhedsbreve() {
     return (
-        <div style={CardShadowStyle} className="bg-blue-text  md:ml-28 md:mr-28 rounded-xl mb-44 lg:flex-row  flex flex-col
+        <div style={CardShadowStyle} className="bg-blue-text  md:ml-28 md:mr-28 rounded-xl mb-36 lg:flex-row  flex flex-col
         content-center
         justify-center
         justify-items-center">
