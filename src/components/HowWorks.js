@@ -14,7 +14,7 @@ function HowWorks() {
     return (
         <div>
             <div>
-                <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0 text-center">
+                <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-semibold font-sans text-dark-text py-0 text-center">
                     Hvordan det
                     <span className="text-orange-text"> virker!</span>
                 </h2></div>
@@ -63,7 +63,7 @@ function HowWorks() {
           bg-transparent
         "
             >
-                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">03</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Returner produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -71,7 +71,7 @@ function HowWorks() {
                     </h2>
 
                 </div>
-                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">04</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vi servicerer produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
