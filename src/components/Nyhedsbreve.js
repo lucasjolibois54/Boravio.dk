@@ -9,7 +9,7 @@ import PeopleTwo from "../images/PeopleTwo.png";
 
 function Nyhedsbreve() {
     return (
-        <div style={CardShadowStyle} className="bg-red-text  md:ml-28 md:mr-28 rounded-xl mb-44 lg:flex-row  flex flex-col
+        <div style={CardShadowStyle} className="bg-blue-text  md:ml-28 md:mr-28 rounded-xl mb-44 lg:flex-row  flex flex-col
         content-center
         justify-center
         justify-items-center">
@@ -20,11 +20,11 @@ function Nyhedsbreve() {
 
                 </div>
                 <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-6/12">
-                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">04</span></h2>
-                    < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vi servicerer produkt</h2>
-                    <h2 className="  text-sm text-dark-text text-center">
-                        Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
-                    </h2>
+                    
+                    <h2   className="text-4xl sm:text-3xl md:text-5xl 2xl:text-8xl font-semibold mt-10 text-center font-sans text-white py-0">
+                    Tilmeld dig til vores  <br />
+            <span className="text-orange-text"> nyhedsbreve</span>
+          </h2>
                 </div>
                 <div className="w-full  pt-0 pb-20 pl-10 text-center w-100% lg:w-3/12">
                 <img src={PeopleTwo} className="float-right mr-10 pt-16 w-6/12" alt="church"/>
