@@ -26,7 +26,7 @@ function Nyhedsbreve() {
             <span className="text-orange-text"> nyhedsbreve</span>
           </h2>
           <p  className="text-lg text-dark-gray-text py-5 xl:pl-0 ">
-          Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilmelder tilfældig vil vinde 1000 kr.
+          Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilfældig tilmelder vil vinde 1000 kr.
           </p>
           <div class="bg-light-blue rounded-lg">
           <div class="flex flex-wrap justify-between md:flex-row">
