@@ -11,8 +11,8 @@ function HeroSection() {
     return (
         <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
-          <h3 className="text-lg pt-10 text-dark-text mb-3 font-bold">
-              <span style={ShadowStyle} className="bg-white shadow-xl p-2 rounded-md mb-3 pl-3 pr-7">
+          <h3 className="text-lg pt-10 text-gray-900 mb-3 font-bold">
+              <span style={ShadowStyle} className="bg-transparant shadow-xl p-2 rounded-md mb-3 pl-3 pr-7">
           Stop med at spilde penge!</span>
           </h3>
           <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans lg:mt-0 mt-4 text-dark-text py-0">
