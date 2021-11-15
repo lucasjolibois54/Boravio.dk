@@ -33,7 +33,7 @@ function HowWorks() {
         "
             >
                 <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
-                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">01</span></h2>
+                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-5 pr-5 rounded-full">01</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vælg et produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
                         Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
