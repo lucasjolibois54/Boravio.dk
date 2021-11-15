@@ -9,7 +9,7 @@ module.exports = {
         'dark-green': '#2E473C',
         'regular-green': '#365E4C',
         'biege-text': '#F8F2E3',
-        'dark-text': '#4A4A4A',
+        'dark-text': '#000000', /*4A4A4A*/
         'orange-text': '#F3A65D',
         'yellow-text': '#F6C585',
       }
