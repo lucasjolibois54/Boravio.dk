@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function BestilProdukt() {
     return (
-        <div className="bg-red-text  ml-20 mr-20 rounded-xl">
+        <div style={CardShadowStyle} className="bg-red-text  ml-20 mr-20 rounded-xl">
                     <div className=" p-0 flex flex-col w-full xl:flex-row md:p-0 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-lg pt-10 text-orange-text mb-3 font-bold">
@@ -49,5 +49,9 @@ const buttonStyle = {
 }
 
 const ShadowStyle = {
-        boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
+    boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
+}
+
+const CardShadowStyle = {
+    boxShadow: '0px 28px 104px 10px rgba(0, 0, 0, 0.25);'
 }
