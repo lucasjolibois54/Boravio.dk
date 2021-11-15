@@ -15,7 +15,7 @@ function HeroSection() {
               <span style={ShadowStyle} className="bg-white shadow-xl p-2 rounded-full mb-3 pl-4 pr-7">
           Stop med at spilde penge!</span>
           </h3>
-          <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0">
+          <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans lg:mt-0 mt-4 text-dark-text py-0">
           Hvorfor købe  <br />
             <span className="text-yellow-text"> når du kan leje?</span>
           </h2>
