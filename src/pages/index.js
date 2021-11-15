@@ -6,6 +6,7 @@ import HeroSection from  "../components/HeroSection"
 import Values from  "../components/Values"
 import AboutUs from  "../components/AboutUs"
 import BestilProdukt from "../components/BestilProdukt"
+import HowWorks from "../components/HowWorks"
 
 //tailwind global.css import
 import '../styles/global.css';
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <Values/>
       <AboutUs/>
       <BestilProdukt/>
+      <HowWorks/>
     </main>
   )
 }
