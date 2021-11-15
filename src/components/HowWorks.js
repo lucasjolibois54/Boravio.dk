@@ -13,11 +13,11 @@ function HowWorks() {
 
     return (
         <div>
-            <div>          
+            <div>
                 <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0 text-center">
-                Hvordan det 
-                <span className="text-orange-text"> virker!</span>
-            </h2></div>
+                    Hvordan det
+                    <span className="text-orange-text"> virker!</span>
+                </h2></div>
             <div
                 className="
         font-sans
@@ -29,17 +29,53 @@ function HowWorks() {
           justify-items-center
           text-off-white text-3xl
           lg:flex-row
-          bg-dark-text
+          bg-transparent
         "
             >
-                <div className="w-full bg-dark-text pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
-                    <h2 className="pl-8 text-4xl font-black pb-10 pr-10  text-white md:text-5xl">01</h2>
-                    <h2 className=" text-xl text-center text-white">Spar penge</h2>
+                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">01</span></h2>
+                    < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vælg et produkt</h2>
+                    <h2 className="  text-sm text-dark-text text-center">
+                        Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
+                    </h2>
+
                 </div>
-                <div className="w-full bg-dark-text pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
-                    <h2 className="pl-8 text-4xl pb-10 font-black text-white  md:text-5xl">02</h2>
-                    <h2 className="pl-10  text-xl text-white text-center">
-                        Undgå spild
+                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">02</span></h2>
+                    < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Book produktet</h2>
+                    <h2 className="  text-sm text-dark-text text-center">
+                        Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
+                    </h2>
+                </div>
+            </div>
+
+            <div
+                className="
+        font-sans
+          mb-0
+          mt-20
+          flex flex-col
+          content-center
+          justify-center
+          justify-items-center
+          text-off-white text-3xl
+          lg:flex-row
+          bg-transparent
+        "
+            >
+                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">03</span></h2>
+                    < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Returner produkt</h2>
+                    <h2 className="  text-sm text-dark-text text-center">
+                        Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
+                    </h2>
+
+                </div>
+                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                    <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">04</span></h2>
+                    < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vi servicerer produkt</h2>
+                    <h2 className="  text-sm text-dark-text text-center">
+                        Når du færdig med at leje dit produkt, vil en medarbejder komme forbi dit hjem og afhente det, på det tidspunkt du valgte. Du er derefter klar igen til at udleje flere ting
                     </h2>
                 </div>
             </div>
