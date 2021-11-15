@@ -2,6 +2,10 @@ import * as React from "react"
 
 //components
 import TestComponent from  "../components/TestComponent"
+import HeroSection from  "../components/HeroSection"
+
+//tailwind global.css import
+import '../styles/global.css';
 
 // markup
 const IndexPage = () => {
@@ -9,6 +13,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <TestComponent />
+      <HeroSection/>
       <h1 style={headingStyles}>
         Congratulations
         <br />
