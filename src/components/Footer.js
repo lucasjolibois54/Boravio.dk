@@ -19,7 +19,7 @@ function Footer() {
                     <a href="#" class="text-xl font-bold">Boravio</a>
                 </div>
                 <div class="flex mt-4 md:m-0">
-                    <div class="-mx-4">
+                    <div class="-mx-4 text-center">
                       <a href="#" class="px-4 text-sm">Top</a>
                       <a href="#" class="px-4 text-sm">Om os</a>
                       <a href="#" class="px-4 text-sm">Hvordan det virker</a>
