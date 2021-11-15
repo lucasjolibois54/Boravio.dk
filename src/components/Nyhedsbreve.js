@@ -14,12 +14,12 @@ function Nyhedsbreve() {
         justify-center
         justify-items-center">
            
-      <div className="w-full  pt-0 pb-20 pl-10 text-center w-100% lg:w-3/12">
+      <div className="w-full  pt-0 pb-10 pl-10 text-center w-100% lg:w-3/12">
                    
                     <img src={PeopleOne} className="pt-16 w-6/12" alt="church"/>
 
                 </div>
-                <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-6/12">
+                <div className="w-full  pt-0 pb-10 pr-10 text-center w-100% lg:w-6/12">
                     
                     <h2   className="text-4xl sm:text-3xl md:text-5xl 2xl:text-8xl font-semibold mt-10 text-center font-sans text-white py-0">
                     Tilmeld dig til vores  <br />
@@ -28,7 +28,7 @@ function Nyhedsbreve() {
           <p  className="text-lg text-dark-gray-text py-5 xl:pl-0 ">
           Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilmelder tilfældig vil vinde 1000 kr.
           </p>
-          <div class="bg-white rounded-lg">
+          <div class="bg-light-blue rounded-lg">
           <div class="flex flex-wrap justify-between md:flex-row">
             <input
               type="email"
@@ -36,10 +36,11 @@ function Nyhedsbreve() {
                 m-1
                 p-2
                 appearance-none
-                text-gray-700 text-sm
+                text-gray-100 text-sm
                 focus:outline-none
                 border-none
                 w-9/12
+                bg-light-blue
               "
               placeholder="Enter your e-mail"
             />
@@ -48,8 +49,10 @@ function Nyhedsbreve() {
                 w-full
                 m-1
                 p-2
+                pl-6
+                pr-6
                 text-sm
-                bg-gray-800
+                bg-orange-text
                 rounded-lg
                 font-semibold
                 uppercase
@@ -67,7 +70,7 @@ function Nyhedsbreve() {
           </div>
         </div>
                 </div>
-                <div className="w-full  pt-0 pb-20 pl-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-0 pb-10 pl-10 text-center w-100% lg:w-3/12">
                 <img src={PeopleTwo} className="float-right mr-10 pt-16 w-6/12" alt="church"/>
                 </div>
                
