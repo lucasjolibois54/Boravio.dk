@@ -21,7 +21,7 @@ function BestilProdukt() {
           <p  className="text-xl px-5 text-gray-text py-5 md:px-24 xl:pl-0 xl:pr-20">
           Bestil dit produkt online og retuner det når du er færdig med at bruge det. Det kan næsten ikke være simplere. Vi giver dig muligheden for at spare penge på produkter du kan skal bruge få gange, ved at give dig muligheden for at leje dem for er lav pris. 
           </p>
-          <div className="flex justify-center text-center items-center py-0 xl:justify-start">
+          <div className="flex justify-center text-center items-center py-0 xl:justify-start mb-2">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Tilmeld dig!</span></Button>
           <Button style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
