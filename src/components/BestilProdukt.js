@@ -14,7 +14,7 @@ function BestilProdukt() {
               <span style={ShadowStyle} className="bg-off-red-text shadow-xl p-2 rounded-md mb-3 pl-4 pr-7">
           Stop med at spilde penge!</span>
           </h3>
-          <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-white py-0">
+          <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-bold font-sans text-white py-0">
           Bestil dit produkt; <br />
             <span className="text-orange-text"> returner det efter!</span>
           </h2>
