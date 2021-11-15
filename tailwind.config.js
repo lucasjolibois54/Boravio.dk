@@ -18,6 +18,9 @@ module.exports = {
     },
   },
   screens: {
+    'xsm': '520px',
+    // => @media (min-width: 520px) { ... }
+
     'sm': '640px',
     // => @media (min-width: 640px) { ... }
 
