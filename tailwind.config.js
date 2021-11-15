@@ -8,7 +8,7 @@ module.exports = {
         'dark-gray-text': '#B7B5B5',
         'blue-text': '#060335',
         'gray-text': '#F9F6F4',
-        'biege-text': '#F8F2E3',
+        'gray-dif-text': '#9B757A',
         'dark-text': '#000000', /*4A4A4A*/
         'orange-text': '#F3A65D',
         'yellow-text': '#F6C585',
