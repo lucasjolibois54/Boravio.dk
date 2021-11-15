@@ -11,8 +11,8 @@ function HeroSection() {
     return (
         <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
-          <h3 className="text-lg pt-10 text-dark-text mb-2 font-bold">
-              <span className="bg-white shadow-xl p-2 rounded-full mb-2 pl-7 pr-7">
+          <h3 className="text-lg pt-10 text-dark-text mb-3 font-bold">
+              <span style={ShadowStyle} className="bg-white shadow-xl p-2 rounded-full mb-3 pl-4 pr-7">
           Stop med at spilde penge!</span>
           </h3>
           <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0">
@@ -46,5 +46,8 @@ const buttonStyle = {
     border: '1px solid red;',
     fontSize: '16px;',
     padding: '0px 24px 0px;',
-    
+}
+
+const ShadowStyle = {
+        boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
 }
