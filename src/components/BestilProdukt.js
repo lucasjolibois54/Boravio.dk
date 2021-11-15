@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import AboutImg from "../images/AboutImg.png";
 import ImgBestil from "../images/ImgBestil.png";
 //MUI-components
 import Button from '@mui/material/Button';
