@@ -7,12 +7,13 @@ module.exports = {
         'light-green': '#3D6955',
         'medium-green': '#325244',
         'dark-green': '#2E473C',
-        'regular-green': '#365E4C',
+        'gray-text': '#F9F6F4',
         'biege-text': '#F8F2E3',
         'dark-text': '#000000', /*4A4A4A*/
         'orange-text': '#F3A65D',
         'yellow-text': '#F6C585',
         'red-text': '#A74E43',
+        'off-red-text': '#B45D47',
       }
     },
   },
