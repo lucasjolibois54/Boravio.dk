@@ -20,7 +20,6 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <TestComponent />
       <Nav/>
       <HeroSection/>
       <Values/>
