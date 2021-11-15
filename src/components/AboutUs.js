@@ -14,16 +14,13 @@ function AboutUs() {
           <img src={AboutImg} className="pt-6" alt="church"/>
         </div>
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
-          <h3 className="text-lg pt-10 text-dark-text mb-3 font-bold">
-              <span style={ShadowStyle} className="bg-white shadow-xl p-2 rounded-full mb-3 pl-4 pr-7">
-          Stop med at spilde penge!</span>
-          </h3>
+        
           <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0">
-          Hvorfor købe  <br />
-            <span className="text-yellow-text"> når du kan leje?</span>
+          Hør mere om  <br />
+            <span className="text-orange-text"> Kontakt os</span>
           </h2>
           <p  className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
-          Med Boravio har du et bredt sortiment af produkter som du kan leje for en fast pris. Et abonnement hos os giver dig adgang til alt fra brætspil, boremaskiner, rulleskøjter og meget mere
+          Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i e.
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
