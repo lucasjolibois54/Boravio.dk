@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function BestilProdukt() {
     return (
-        <div style={CardShadowStyle} className="bg-red-text  ml-28 mr-28 rounded-xl">
+        <div style={CardShadowStyle} className="bg-red-text  md:ml-28 md:mr-28 rounded-xl">
                     <div className=" p-0 flex flex-col w-full xl:flex-row md:p-0 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-lg pt-10 text-orange-text mb-3 font-bold">
@@ -24,6 +24,7 @@ function BestilProdukt() {
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Tilmeld dig!</span></Button>
+          <Button style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
           </div>
         </div>
         <div  className="w-full xl:w-6/12">
@@ -40,6 +41,16 @@ export default BestilProdukt
 
 const buttonStyle = {
     backgroundColor: "#F3A65D",
+    color: 'white',
+    height: '48px;',
+    top: '0px;',
+    border: '1px solid red;',
+    fontSize: '16px;',
+    padding: '0px 24px 0px;',
+}
+
+const buttonStyle2 = {
+    backgroundColor: "#8EA0B8",
     color: 'white',
     height: '48px;',
     top: '0px;',
