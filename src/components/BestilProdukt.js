@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import AboutImg from "../images/AboutImg.png";
-import Kirke from "../images/heroImage.png";
+import ImgBestil from "../images/ImgBestil.png";
 //MUI-components
 import Button from '@mui/material/Button';
 
@@ -27,7 +27,7 @@ function BestilProdukt() {
           </div>
         </div>
         <div  className="w-full xl:w-full">
-          <img src={Kirke} className="pt-16" alt="church"/>
+          <img src={ImgBestil} className="pt-16" alt="church"/>
         </div>
       </div>
       </div>
