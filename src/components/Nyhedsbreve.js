@@ -39,7 +39,8 @@ function Nyhedsbreve() {
                 text-gray-100 text-sm
                 focus:outline-none
                 border-none
-                w-9/12
+                w-7/12
+                xl:w-9/12
                 bg-light-blue
               "
               placeholder="Enter your e-mail"
