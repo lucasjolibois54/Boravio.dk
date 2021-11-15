@@ -23,7 +23,7 @@ export default IndexPage
 
 // styles
 const pageStyles = {
-  color: "#232129",
+  color: "#F9F6F4",
   padding: 0,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
