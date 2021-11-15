@@ -12,7 +12,7 @@ import styled from "styled-components";
 function HowWorks() {
 
     return (
-        <div className=" pb-10 lg:pb-36 pl-5 pr-5 md:pl-0 md:pr-0">
+        <div className=" pb-10 lg:pb-36 xsm:pl-50 xsm:pr-20 pl-5 pr-5 md:pl-36 md:pr-36">
             <div>
                 <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-semibold font-sans text-dark-text py-0 text-center">
                     Hvordan det
