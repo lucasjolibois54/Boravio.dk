@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Kirke from "../images/heroImage.png";
+import AboutImg from "../images/AboutImg.png";
 //MUI-components
 import Button from '@mui/material/Button';
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
@@ -10,6 +10,9 @@ import { red } from '@mui/material/colors';
 function AboutUs() {
     return (
         <div className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
+                    <div  className="w-full xl:w-full">
+          <img src={AboutImg} className="pt-6" alt="church"/>
+        </div>
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
           <h3 className="text-lg pt-10 text-dark-text mb-3 font-bold">
               <span style={ShadowStyle} className="bg-white shadow-xl p-2 rounded-full mb-3 pl-4 pr-7">
@@ -26,9 +29,6 @@ function AboutUs() {
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 rounded-full font-bold" variant="contained"><span className="paddingButton font-bold">Mere om os</span></Button>
           </div>
-        </div>
-        <div  className="w-full xl:w-full">
-          <img src={Kirke} className="pt-16" alt="church"/>
         </div>
       </div>
     )
