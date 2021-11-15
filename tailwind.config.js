@@ -11,7 +11,7 @@ module.exports = {
         'biege-text': '#F8F2E3',
         'dark-text': '#4A4A4A',
         'orange-text': '#F3A65D',
-        'yellow-text': '#F6C585'
+        'yellow-text': '#F6C585',
       }
     },
   },
