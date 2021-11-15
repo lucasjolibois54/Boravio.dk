@@ -7,9 +7,11 @@ import Values from  "../components/Values"
 import AboutUs from  "../components/AboutUs"
 import BestilProdukt from "../components/BestilProdukt"
 import HowWorks from "../components/HowWorks"
+import Nyhedsbreve from "../components/Nyhedsbreve"
 
 //tailwind global.css import
 import '../styles/global.css';
+
 
 // markup
 const IndexPage = () => {
@@ -22,6 +24,7 @@ const IndexPage = () => {
       <AboutUs/>
       <BestilProdukt/>
       <HowWorks/>
+      <Nyhedsbreve/>
     </main>
   )
 }
