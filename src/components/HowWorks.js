@@ -32,7 +32,7 @@ function HowWorks() {
           bg-transparent
         "
             >
-                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pr-10 lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-5 pr-5 rounded-full">01</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vælg et produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -40,7 +40,7 @@ function HowWorks() {
                     </h2>
 
                 </div>
-                <div className="w-full  pt-10 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pl-10 lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">02</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Book produktet</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -63,7 +63,7 @@ function HowWorks() {
           bg-transparent
         "
             >
-                <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pr-10 lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">03</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Returner produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -71,7 +71,7 @@ function HowWorks() {
                     </h2>
 
                 </div>
-                <div className="w-full  pt-0 pb-20 pr-10 text-center w-100% lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pl-10 lg:w-3/12">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">04</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vi servicerer produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
