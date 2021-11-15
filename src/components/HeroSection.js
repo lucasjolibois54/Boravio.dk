@@ -20,11 +20,12 @@ function HeroSection() {
             <span className="text-yellow-text"> når du kan leje?</span>
           </h2>
           <p  className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
-          Med Boravio har du et bredt sortiment af produkter som du kan leje for en fast pris. Et abonnement hos os giver dig adgang til alt fra brætspil, boremaskiner, rulleskøjter og meget mere
+          Med Boravio har du et bredt sortiment af produkter som du kan leje for en fast pris. Et abonnement hos os giver dig adgang til alt fra brætspil, boremaskiner, rulleskøjter, værktøj, træningsudstyr og meget mere.
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 rounded-full font-bold" variant="contained"><span className="paddingButton font-bold">Mere om os</span></Button>
+          <Button style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold  rounded-full " variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
           </div>
         </div>
         <div  className="w-full xl:w-full">
@@ -50,4 +51,15 @@ const buttonStyle = {
 
 const ShadowStyle = {
         boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
+}
+
+const buttonStyle2 = {
+    backgroundColor: "#BCC5D2",
+    marginleft: '5px',
+    color: 'white',
+    height: '48px;',
+    top: '0px;',
+    border: '1px solid red;',
+    fontSize: '16px;',
+    padding: '0px 24px 0px;',
 }
