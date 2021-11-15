@@ -17,7 +17,7 @@ function AboutUs() {
         
           <h2   className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-black font-sans text-dark-text py-0">
           Hør mere om  <br />
-            <span className="text-orange-text"> Kontakt os</span>
+            <span className="text-orange-text"> hvem vi er!</span>
           </h2>
           <p  className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
           Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i e.
