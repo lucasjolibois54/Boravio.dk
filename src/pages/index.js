@@ -9,6 +9,7 @@ import BestilProdukt from "../components/BestilProdukt"
 import HowWorks from "../components/HowWorks"
 import Nyhedsbreve from "../components/Nyhedsbreve"
 import Footer from "../components/Footer"
+import Nav from "../components/Nav"
 
 //tailwind global.css import
 import '../styles/global.css';
@@ -20,6 +21,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <TestComponent />
+      <Nav/>
       <HeroSection/>
       <Values/>
       <AboutUs/>
