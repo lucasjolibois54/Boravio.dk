@@ -28,6 +28,44 @@ function Nyhedsbreve() {
           <p  className="text-lg text-dark-gray-text py-5 xl:pl-0 ">
           Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilmelder tilfældig vil vinde 1000 kr.
           </p>
+          <div class="bg-white rounded-lg">
+          <div class="flex flex-wrap justify-between md:flex-row">
+            <input
+              type="email"
+              class="
+                m-1
+                p-2
+                appearance-none
+                text-gray-700 text-sm
+                focus:outline-none
+                border-none
+                w-9/12
+              "
+              placeholder="Enter your e-mail"
+            />
+            <button
+              class="
+                w-full
+                m-1
+                p-2
+                text-sm
+                bg-gray-800
+                rounded-lg
+                font-semibold
+                uppercase
+                lg:w-auto
+                transition
+                duration-500
+                ease-in-out
+                transform
+                hover:scale-105
+                hover:bg-regular-blue
+              "
+            >
+              Tilmeld
+            </button>
+          </div>
+        </div>
                 </div>
                 <div className="w-full  pt-0 pb-20 pl-10 text-center w-100% lg:w-3/12">
                 <img src={PeopleTwo} className="float-right mr-10 pt-16 w-6/12" alt="church"/>
