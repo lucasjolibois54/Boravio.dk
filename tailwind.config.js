@@ -12,6 +12,7 @@ module.exports = {
         'dark-text': '#000000', /*4A4A4A*/
         'orange-text': '#F3A65D',
         'yellow-text': '#F6C585',
+        'red-text': '#A74E43',
       }
     },
   },
