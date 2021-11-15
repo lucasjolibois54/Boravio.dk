@@ -28,7 +28,7 @@ const ButtonMenu = styled(Button)`
     &&& {
         background-color: whitesmoke;
         margin-right: 20px;
-        margin-left: -120px;
+        margin-left: 0px;
         font-family: Google Sans Display, "sans-serif";
         color: red;
         border: 1px solid red;
