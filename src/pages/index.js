@@ -1,7 +1,6 @@
 import * as React from "react"
 
 //components
-import TestComponent from  "../components/TestComponent"
 import HeroSection from  "../components/HeroSection"
 import Values from  "../components/Values"
 import AboutUs from  "../components/AboutUs"
