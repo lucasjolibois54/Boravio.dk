@@ -31,7 +31,7 @@ button.addEventListener('click', () => {
       >
        <div>
           <a className="font-black" href="#">
-           <h2 className="font-black">Boravio</h2>
+           <h2 className="text-dark-text font-black text-xl">Boravio</h2>
           </a>
         </div>
        
@@ -55,7 +55,7 @@ button.addEventListener('click', () => {
           <ul
             className="
               pt-4
-              py-4
+              py-0
               text-base text-gray-700
               md:flex
               md:justify-between 
@@ -63,28 +63,28 @@ button.addEventListener('click', () => {
               
           >
             <li>
-              <a className="md:p-4 py-2 block hover:text-orange-text" href="#about"
+              <a className="md:p-4 py-4 block hover:text-orange-text" href="#about"
                 >Om os</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-orange-text" href="#bestilling"
+              <a className="md:p-4 py-4 block hover:text-orange-text" href="#bestilling"
                 >Bestil</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-orange-text" href="#process"
+              <a className="md:p-4 py-4 block hover:text-orange-text" href="#process"
                 >Hvordan det virker</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-orange-text" href="#nyhed"
+              <a className="md:p-4 py-4 block hover:text-orange-text" href="#nyhed"
                 >Nyhedsbreve</a
               >
             </li>
             <li>
               <a
-                className="md:p-4 py-2 block hover:text-orange-text text-dark-text"
+                className="md:p-4 py-4 block hover:text-orange-text "
                 href="#"
                 >Kontakt</a
               >
