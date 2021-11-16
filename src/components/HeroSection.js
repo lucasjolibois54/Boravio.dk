@@ -25,7 +25,7 @@ function HeroSection() {
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
           <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 rounded-full font-bold" variant="contained"><span className="paddingButton font-bold">Mere om os</span></Button>
-          <Button style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold  rounded-full " variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
+          <Button style={buttonStyle2} className="pl-7 ml-5 pr-7 pt-2 pb-2 font-bold  rounded-full " variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
           </div>
         </div>
         <div  className="w-full xl:w-full">
