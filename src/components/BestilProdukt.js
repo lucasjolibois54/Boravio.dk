@@ -56,6 +56,7 @@ const buttonStyle2 = {
     //border: '1px solid red;',
     fontSize: '16px;',
     padding: '0px 24px 0px;',
+    marginLeft: '10px',
 }
 
 const ShadowStyle = {
