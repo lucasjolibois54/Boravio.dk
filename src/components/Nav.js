@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import AboutImg from "../images/AboutImg.png";
+import '../styles/nav.css';
 //MUI-components
 import Button from '@mui/material/Button';
 
