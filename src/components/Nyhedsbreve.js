@@ -1,9 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
-import AboutImg from "../images/AboutImg.png";
-import ImgBestil from "../images/ImgBestil.png";
 //MUI-components
-import Button from '@mui/material/Button';
 import PeopleOne from "../images/PeopleOne.png";
 import PeopleTwo from "../images/PeopleTwo.png";
 
@@ -83,29 +79,7 @@ export default Nyhedsbreve
 
 
 
-const buttonStyle = {
-    backgroundColor: "#F3A65D",
-    color: 'white',
-    height: '48px;',
-    top: '0px;',
-    border: '1px solid red;',
-    fontSize: '16px;',
-    padding: '0px 24px 0px;',
-}
 
-const buttonStyle2 = {
-    backgroundColor: "#8EA0B8",
-    color: 'white',
-    height: '48px;',
-    top: '0px;',
-    border: '1px solid red;',
-    fontSize: '16px;',
-    padding: '0px 24px 0px;',
-}
-
-const ShadowStyle = {
-    boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
-}
 
 const CardShadowStyle = {
     boxShadow: '0px 28px 104px 10px rgba(0, 0, 0, 0.25);'
