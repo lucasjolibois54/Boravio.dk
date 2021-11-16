@@ -15,13 +15,13 @@ function Nyhedsbreve() {
                     <img src={PeopleOne} className="pt-16 w-6/12 hidden lg:block" alt="church"/>
 
                 </div>
-                <div className="w-full  pt-0 pb-10 pl-10 pr-10 text-center w-100% lg:w-6/12">
+                <div className="w-full  pt-0 pb-10 pl-10 pr-10 lg:pl-0 lg:pr-0 text-center w-100% lg:w-6/12">
                     
                     <h2   className="text-4xl sm:text-3xl md:text-5xl 2xl:text-8xl font-semibold mt-10 text-center font-sans text-white py-0">
                     Tilmeld dig til vores  <br />
             <span className="text-orange-text"> nyhedsbreve</span>
           </h2>
-          <p  className="text-lg text-dark-gray-text py-5 xl:pl-0 ">
+          <p  className="text-lg text-dark-gray-text py-5 lg:pl-0 lg:pr-0 ">
           Hjælp os med at nå i mål! Hvis nok mennesker tilmelder sig, vil vi få muligheden for at lancere. En tilfældig tilmelder vil vinde 1000 kr.
           </p>
           <div class="bg-light-blue rounded-lg">
