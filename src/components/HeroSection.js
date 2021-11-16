@@ -1,11 +1,7 @@
 import React from 'react';
-import styled from "styled-components";
 import Kirke from "../images/heroImage.png";
 //MUI-components
 import Button from '@mui/material/Button';
-import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
-import { IconButton } from '@mui/material';
-import { red } from '@mui/material/colors';
 
 function HeroSection() {
     return (
