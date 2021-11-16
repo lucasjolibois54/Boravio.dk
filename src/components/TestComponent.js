@@ -5,7 +5,6 @@ import styled from "styled-components";
 import Button from '@mui/material/Button';
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
 import { IconButton } from '@mui/material';
-import { red } from '@mui/material/colors';
 
 function TestComponent() {
     return (
