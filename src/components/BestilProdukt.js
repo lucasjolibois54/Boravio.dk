@@ -43,7 +43,7 @@ const buttonStyle = {
     color: 'white',
     height: '48px;',
     top: '0px;',
-    border: '1px solid red;',
+   // border: '1px solid red;',
     fontSize: '16px;',
     padding: '0px 24px 0px;',
 }
@@ -53,7 +53,7 @@ const buttonStyle2 = {
     color: 'white',
     height: '48px;',
     top: '0px;',
-    border: '1px solid;',
+    //border: '1px solid red;',
     fontSize: '16px;',
     padding: '0px 24px 0px;',
 }
