@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 
 function AboutUs() {
     return (
-        <div className="mb-28 p-0 flex flex-col w-full xl:flex-row md:p-16 md:mb-18">
+        <div id="about" className="mb-28 p-0 flex flex-col w-full xl:flex-row md:p-16 md:mb-18">
                     <div  className="w-full xl:w-full">
           <img src={AboutImg} className="pt-6" alt="church"/>
         </div>
