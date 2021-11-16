@@ -9,7 +9,7 @@ function Footer() {
 
         <div class="mb-0">
 
-<footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
+<footer id="footer" class="flex justify-center px-4 text-gray-100 bg-gray-800">
         <div class="container py-6">
             
             <hr class="h-px mt-6 bg-gray-700 border-none"/>
