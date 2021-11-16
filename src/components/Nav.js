@@ -107,28 +107,28 @@ button.addEventListener('click', () => {
               md:pt-0"
           >
             <li>
-              <a className="md:p-4 py-2 block hover:text-purple-400" href="#"
+              <a className="md:p-4 py-2 block hover:text-orange-text" href="#about"
                 >Om os</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-purple-400" href="#"
+              <a className="md:p-4 py-2 block hover:text-orange-text" href="#bestilling"
                 >Bestil</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-purple-400" href="#"
+              <a className="md:p-4 py-2 block hover:text-orange-text" href="#process"
                 >Hvordan det virker</a
               >
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-purple-400" href="#"
+              <a className="md:p-4 py-2 block hover:text-orange-text" href="#nyhed"
                 >Nyhedsbreve</a
               >
             </li>
             <li>
               <a
-                className="md:p-4 py-2 block hover:text-purple-400 text-purple-500"
+                className="md:p-4 py-2 block hover:text-orange-text text-purple-500"
                 href="#"
                 >Kontakt</a
               >
