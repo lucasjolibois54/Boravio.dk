@@ -25,6 +25,7 @@
     font-size: 22px;
     color: #000000;
     padding: 10px 10px 10px 10px;
+    margin-left: 7%;
   }
   
   .nav > .nav-btn {
@@ -41,11 +42,11 @@
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    color: #000000;
   }
   
   .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    color: #F3A65D;
   }
   
   .nav > #nav-check {
@@ -78,7 +79,7 @@
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #333;
+      background-color: none;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
