@@ -22,8 +22,8 @@ function BestilProdukt() {
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start mb-2">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
-          <Button style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Tilmeld dig!</span></Button>
-          <Button style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
+          <Button href="#footer" style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Tilmeld dig!</span></Button>
+          <Button href="#process" style={buttonStyle2} className="pl-7 ml-3 pr-7 pt-2 pb-2 font-bold" variant="contained"><span className="paddingButton font-bold">Lær mere om processen</span></Button>
           </div>
         </div>
         <div  className="w-full xl:w-6/12">
