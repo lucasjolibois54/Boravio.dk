@@ -21,9 +21,9 @@ function Footer() {
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4 text-center">
                       <a href="#" class="px-4 text-sm">Top</a>
-                      <a href="#" class="px-4 text-sm">Om os</a>
-                      <a href="#" class="px-4 text-sm">Hvordan det virker</a>
-                      <a href="#" class="px-4 text-sm">Nyhedsbreve</a>
+                      <a href="#about" class="px-4 text-sm">Om os</a>
+                      <a href="#process" class="px-4 text-sm">Hvordan det virker</a>
+                      <a href="#nyhed" class="px-4 text-sm">Nyhedsbreve</a>
                   	</div>
                 </div>
             </div>
