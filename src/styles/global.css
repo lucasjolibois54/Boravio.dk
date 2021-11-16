@@ -36,6 +36,7 @@
     display: inline;
     float: right;
     font-size: 18px;
+    margin-right: 7%;
   }
   
   .nav > .nav-links > a {
