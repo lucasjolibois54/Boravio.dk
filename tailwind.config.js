@@ -15,6 +15,7 @@ module.exports = {
         'yellow-text': '#F6C585',
         'red-text': '#A74E43',
         'off-red-text': '#B45D47',
+        'button-gray':'#BCC5D2',
       }
     },
   },
