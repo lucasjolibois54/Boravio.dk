@@ -10,7 +10,7 @@ function Nav() {
     return (
        <div className="thebody pb-16 lg:pb-7">
 <header class="header">
-  <a href="#top" class="logo">Boravio</a>
+  <a  className="a" href="#top" class="logo">Boravio</a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
