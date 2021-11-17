@@ -27,7 +27,7 @@ function BestilProdukt() {
           </div>
         </div>
         <div  className="w-full xl:w-6/12">
-          <img src={ImgBestil} className="pt-16" alt="church"/>
+          <img src={ImgBestil} className="pt-16 pb-0" alt="church"/>
         </div>
       </div>
       </div>
