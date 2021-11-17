@@ -12,6 +12,7 @@ import styled from "styled-components";
 function HowWorks() {
 
     return (
+        <div>
         <div id="process" className=" pb-10 lg:pb-36 xsm:pl-50 xsm:pr-20 pl-5 pr-5 md:pl-36 md:pr-36 lg:pl-10 lg:pr-10">
             <div>
                 <h2 className="text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl font-semibold font-sans text-dark-text py-0 text-center">
@@ -28,11 +29,12 @@ function HowWorks() {
           justify-center
           justify-items-center
           text-off-white text-3xl
-          lg:flex-row
+          md:flex-row
           bg-transparent
+          
         "
             >
-                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pr-10 lg:w-3/12">
+                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pr-10 md:w-7/12 lg:w-3/12 lg:mr-0 md:mr-10">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-5 pr-5 rounded-full">01</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vælg et produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -40,7 +42,7 @@ function HowWorks() {
                     </h2>
 
                 </div>
-                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pl-10 lg:w-3/12">
+                <div className="w-full  pt-10 pb-20 pr-0 text-center w-100% lg:pl-10 md:w-7/12 lg:w-3/12 lg:ml-0 md:ml-10">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">02</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Book produktet</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -51,19 +53,19 @@ function HowWorks() {
 
             <div
                 className="
-        font-sans
-          mb-0
-          mt-20
-          flex flex-col
-          content-center
-          justify-center
-          justify-items-center
-          text-off-white text-3xl
-          lg:flex-row
-          bg-transparent
+                font-sans
+                mb-0
+                mt-20
+                flex flex-col
+                content-center
+                justify-center
+                justify-items-center
+                text-off-white text-3xl
+                md:flex-row
+                bg-transparent
         "
             >
-                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pr-10 lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pr-10 md:w-7/12 lg:w-3/12 lg:mr-0 md:mr-10">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">03</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Returner produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -71,7 +73,7 @@ function HowWorks() {
                     </h2>
 
                 </div>
-                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pl-10 lg:w-3/12">
+                <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pl-10 md:w-7/12 lg:w-3/12 lg:ml-0 md:ml-10">
                     <h2 className="pl-8 text-4xl font-semibold pb-10 pr-10 text-center  text-dark-text md:text-5xl"><span className="bg-orange-text p-3 pl-4 pr-4 rounded-full">04</span></h2>
                     < h2 className=" text-2xl pb-1 font-semibold text-dark-text  md:text-3xl">Vi servicerer produkt</h2>
                     <h2 className="  text-sm text-dark-text text-center">
@@ -79,6 +81,7 @@ function HowWorks() {
                     </h2>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
