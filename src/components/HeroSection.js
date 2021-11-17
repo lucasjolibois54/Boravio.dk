@@ -19,14 +19,16 @@ function HeroSection() {
                     Med Boravio har du et bredt sortiment af produkter som du kan leje for en fast pris. Et abonnement hos os giver dig adgang til alt fra brætspil, boremaskiner, rulleskøjter, værktøj, træningsudstyr og meget mere.
                 </p>
                 <div className="flex justify-center text-center items-center py-0 xl:justify-start">
-
-                    <button class="shadow-lg bg-orange-text hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:scale-110">
-                        Mere om os
-                    </button>
-
-                    <button  class="shadow-lg bg-button-gray hover:bg-gray-500 ml-3 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:scale-105">
-                        Lær mere om processen
-                    </button>
+                    <a href="#about" >
+                        <button href="#about" class="shadow-lg bg-orange-text hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:scale-110">
+                            Mere om os
+                        </button>
+                    </a>
+                    <a href="#process" >
+                        <button href="#process" class="shadow-lg bg-button-gray hover:bg-gray-500 ml-3 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:scale-105">
+                            Lær mere om processen
+                        </button>
+                    </a>
 
                     {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
                     {/* <Button href="#about" style={buttonStyle} className="pl-7 pr-7 pt-2 pb-2 rounded-full font-bold" variant="contained"><span className="paddingButton font-bold">Mere om os</span></Button>
