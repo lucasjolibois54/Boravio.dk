@@ -25,7 +25,6 @@ function Value() {
           bg-dark-text
         "
       >
-          <div className="flex flex-row">
         <div  className="w-full bg-dark-text pt-10 pb-20 pr-0 text-center w-100% lg:w-2/12">
           <h2 className="pl-8 text-4xl font-black pb-10 pr-10  text-white md:text-5xl">01</h2>
           <h2 className=" text-xl text-center text-white">Spar penge</h2>
@@ -36,8 +35,6 @@ function Value() {
           Undgå spild
           </h2>
         </div>
-        </div>
-        <div className="flex flex-row">
         <div   className="w-full bg-dark-text pt-10 pb-20 pr-10 w-100% lg:w-2/12 text-right">
           <h2 className="pl-8 text-4xl pb-10 font-black text-white text-center  md:text-5xl">03</h2>
           <h2 className="pl-10 text-xl text-white text-center">Hurtig levering og retur</h2>
@@ -45,7 +42,6 @@ function Value() {
         <div   className="w-full bg-dark-text pt-10 pb-20 pr-10 w-100% text-center lg:w-2/12 ">
           <h2 className="pl-8 text-4xl pb-10 font-black text-white  md:text-5xl">04</h2>
           <h2 className="pl-10 text-xl text-white text-center">Sikker udlejning</h2>
-        </div>
         </div>
       </div>
     )
