@@ -61,8 +61,8 @@ function AboutUs() {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-blueGray-500 text-lg leading-relaxed text-dark-text">
-                  Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i længden, hvis man udlejer mange ting af gangen. Det er så her hvor Boravio kommer ind. Hos kan du udleje det meste for en lav månedlige pris. Vi har alt til fest, rejse, DIY, underholdning, events, udendørs, sport, og meget mere
+                  <p className="my-4 text-blueGray-500 text-lg leading-relaxed text-dark-text text-left">
+                  Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i længden, hvis man udlejer mange ting af gangen. Det er så her hvor Boravio kommer ind. Hos kan du udleje det meste for en lav månedlige pris. Vi har alt til fest, rejse, DIY, underholdning, events, udendørs, sport, og meget mere.
                   </p>
                 </div>
                 {/*footer*/}
