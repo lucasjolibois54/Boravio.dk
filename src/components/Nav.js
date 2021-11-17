@@ -14,10 +14,10 @@ function Nav() {
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li><a href="#about">Om os</a></li>
-    <li><a href="#bestilling">Bestil</a></li>
-    <li><a href="#process">Sådan virker det</a></li>
-    <li><a href="#nyhed">Tilmeld</a></li>
+    <li><a className="a" href="#about">Om os</a></li>
+    <li><a  className="a" href="#bestilling">Bestil</a></li>
+    <li><a  className="a" href="#process">Sådan virker det</a></li>
+    <li><a  className="a" href="#nyhed">Tilmeld</a></li>
   </ul>
 </header>
 </div>
