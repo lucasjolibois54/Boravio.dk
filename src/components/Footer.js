@@ -16,14 +16,14 @@ function Footer() {
 
             <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
                 <div>
-                    <a href="#" class="text-xl font-bold">Boravio</a>
+                    <a href="#top" class="text-xl font-bold">Boravio</a>
                 </div>
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4 text-center">
-                      <a href="#" class="px-4 text-sm">Top</a>
-                      <a href="#about" class="px-4 text-sm">Om os</a>
-                      <a href="#process" class="px-4 text-sm">Hvordan det virker</a>
-                      <a href="#nyhed" class="px-4 text-sm">Nyhedsbreve</a>
+                      <a href="#top" class="px-4 text-sm hover:text-orange-text">Top</a>
+                      <a href="#about" class="px-4 text-sm hover:text-orange-text">Om os</a>
+                      <a href="#process" class="px-4 text-sm hover:text-orange-text">Hvordan det virker</a>
+                      <a href="#nyhed" class="px-4 text-sm hover:text-orange-text">Nyhedsbreve</a>
                   	</div>
                 </div>
             </div>
