@@ -8,31 +8,18 @@ import Button from '@mui/material/Button';
 function Nav() {
 
     return (
-       <div>
-<div class="nav">
-  <input type="checkbox" id="nav-check"/>
-  <div class="nav-header">
-    <div class="nav-title text-dark-text">
-      Boravio
-    </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  
-  <div class="nav-links">
-    <a href="//github.io/jo_geek" target="_blank">Om os</a>
-    <a href="http://stackoverflow.com/users/4084003/" target="_blank">Bestil</a>
-    <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Sådan virker det</a>
-    <a href="https://codepen.io/jo_Geek/" target="_blank">Tilmeld</a>
-    <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Kontakt</a>
-  </div>
-</div>
-
+       <div className="thebody">
+<header class="header">
+  <a href="" class="logo">Boravio</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#work">Om os</a></li>
+    <li><a href="#about">Bestil</a></li>
+    <li><a href="#careers">Sådan virker det</a></li>
+    <li><a href="#contact">Tilmeld</a></li>
+  </ul>
+</header>
 </div>
     )
 }
