@@ -8,16 +8,16 @@ import Button from '@mui/material/Button';
 function Nav() {
 
     return (
-       <div className="thebody">
+       <div className="thebody pb-16 lg:pb-7">
 <header class="header">
-  <a href="" class="logo">Boravio</a>
+  <a href="#top" class="logo">Boravio</a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li><a href="#work">Om os</a></li>
-    <li><a href="#about">Bestil</a></li>
-    <li><a href="#careers">Sådan virker det</a></li>
-    <li><a href="#contact">Tilmeld</a></li>
+    <li><a href="#about">Om os</a></li>
+    <li><a href="#bestilling">Bestil</a></li>
+    <li><a href="#process">Sådan virker det</a></li>
+    <li><a href="#nyhed">Tilmeld</a></li>
   </ul>
 </header>
 </div>
