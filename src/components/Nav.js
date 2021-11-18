@@ -1,11 +1,8 @@
 import React from 'react';
-import styled from "styled-components";
-import AboutImg from "../images/AboutImg.png";
+//import styled from "styled-components";
 import '../styles/nav.css';
 //MUI-components
-import Button from '@mui/material/Button';
-import logoIcon from '../images/Logoofficial-1 (1).svg'
-import logo2icon from "../images/257662472_853310442017486_4690525764658721546_n.png"
+//import Button from '@mui/material/Button';
 
 function Nav() {
 
@@ -30,17 +27,3 @@ function Nav() {
 export default Nav
 
 
-
-const buttonStyle = {
-    backgroundColor: "#F3A65D",
-    color: 'black',
-    height: '48px;',
-    top: '0px;',
-    border: '1px solid red;',
-    fontSize: '16px;',
-    padding: '0px 24px 0px;',
-}
-
-const ShadowStyle = {
-        boxShadow: '0px 0px 104px rgba(0, 0, 0, 0.25);'   
-}
