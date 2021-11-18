@@ -1,5 +1,5 @@
 import React from 'react';
-import Kirke from "../images/heroImage.png";
+import Kirke from "../images/heroimage_optimized.png";
 //MUI-components
 
 function HeroSection() {
