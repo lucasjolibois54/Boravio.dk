@@ -5,6 +5,7 @@ import '../styles/nav.css';
 //MUI-components
 import Button from '@mui/material/Button';
 import logoIcon from '../images/Logoofficial-1 (1).svg'
+import logo2icon from "../images/257662472_853310442017486_4690525764658721546_n.png"
 
 function Nav() {
 
@@ -12,7 +13,7 @@ function Nav() {
        <div className="thebody pb-16 lg:pb-7">
 <header class="header">
   {/* <a  href="#top" class="logo a">Boravio</a> */}
-  <a  href="#top" class="logo a w-36"><img src={logoIcon} className="pt-2" alt="church"/></a>
+  <a  href="#top" class="logo a w-36"><img src={logo2icon} className="pt-2" alt="church"/></a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
