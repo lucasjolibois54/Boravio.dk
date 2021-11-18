@@ -18,7 +18,7 @@ function AboutUs() {
             <span className="text-orange-text"> hvem vi er!</span>
           </h2>
           <p  className="text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
-          Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i.
+          Ideen bag Boravio kom fra et behov om at stoppe spild, samt reducering af køb af engangsbrug. Mange folk kender det at købe ting der kun bruges få gange om året, som bare sidder og samler støv i kælderen. Ting som værktøjer, kufferter, og andre sæson genstande. Det virker derfor som en oplagte ide at man bare låner de ting, som man kun bruger få gange, det kan desværre blev meget dyrt i længden.
           </p>
           <div className="flex justify-center text-center items-center py-0 xl:justify-start">
           {/*<Button style={buttonStyle} variant="outlined">Primary</Button>*/}
