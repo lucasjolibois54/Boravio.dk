@@ -16,7 +16,7 @@ function Footer() {
 
             <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
                 <div>
-                    
+                    <a href="#top" class="text-xl font-bold hover:text-orange-text">Boravio</a>
                 </div>
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4 text-center">
